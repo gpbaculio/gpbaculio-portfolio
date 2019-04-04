@@ -49,10 +49,15 @@ const Body = () => {
             I am a fullstack reactjs developer mainly in frontend, I am a
             graduate of Bachelor of Science in Information Technology at Liceo
             de Cagayan University, I got into web development since 2015, you
-            can see my first Stackoverflow question here:{' '}
-            <a href="https://goo.gl/EyhKWr">https://goo.gl/EyhKWr</a> we used
-            plain html, css, bootstrap, php at the time at school. After I
-            graduate I self taught myself javascript in freecodecamp and
+            can see my first Stackoverflow question{' '}
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://stackoverflow.com/questions/32332406/how-to-insert-mysql-value-inside-javascript">
+              here
+            </a>
+            . We used plain html, css, bootstrap, php at the time at school.
+            After I graduate I self taught myself javascript in freecodecamp and
             eventually got a frontend certificate. Diving into js deeper, I
             discovered typescript, react, redux, apollo and relay in frontend
             and mongoose, graphql, express in backend, I used this stacks in my
@@ -72,30 +77,30 @@ const Body = () => {
       <Row className="align-items-center justify-content-center">
         <Col md="4">
           <Card>
-            <CardImg
-              top
-              width="100%"
-              src="https://i.imgur.com/YnTrI3k.png"
-              alt="Card image cap"
-            />
-
-            <CardText>
-              <strong>Features(DOM Manipulation)</strong>
-            </CardText>
-            <div className="d-flex flex-column mb-2">
-              <div>1. ADD/EDIT/DELETE Todo</div>
-              <div>2. Filter Todos(All, Active, Completed)</div>
-            </div>
+            <CardImg top width="100%" src="https://i.imgur.com/YnTrI3k.png" />
             <CardBody>
+              <CardText>
+                <strong>Features(DOM Manipulation)</strong>
+              </CardText>
+              <div className="d-flex flex-column mb-2">
+                <div>1. ADD/EDIT/DELETE Todo</div>
+                <div>2. Filter Todos(All, Active, Completed)</div>
+              </div>
               <div>
                 <strong>Github:</strong>
-                <a href="https://github.com/gpbaculio/cs50-rn-project0">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/gpbaculio/cs50-rn-project0">
                   https://github.com/gpbaculio/cs50-rn-project0
                 </a>
               </div>
               <div>
                 <strong>Codepen:</strong>
-                <a href="https://codepen.io/iamglenbacs/pen/VNvjpv">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://codepen.io/iamglenbacs/pen/VNvjpv">
                   https://codepen.io/iamglenbacs/pen/VNvjpv
                 </a>
               </div>
@@ -119,11 +124,22 @@ const Body = () => {
             <CardBody>
               <div>
                 <strong>Github:</strong>
-                <a href="https://goo.gl/dHUhmz">https://goo.gl/dHUhmz</a>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/gpbaculio/altmanager-landing-challenge">
+                  https://github.com/gpbaculio/altmanager-landing-challenge
+                </a>
               </div>
               <div>
                 <strong>Deployment:</strong>
-                <a href="https://goo.gl/8GcdBC"> https://goo.gl/8GcdBC</a>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://amazing-varahamihira-59200e.netlify.com/">
+                  {' '}
+                  https://amazing-varahamihira-59200e.netlify.com/
+                </a>
               </div>
             </CardBody>
           </Card>
@@ -134,11 +150,21 @@ const Body = () => {
             <CardBody>
               <div>
                 <strong>Github:</strong>
-                <a href="https://goo.gl/73PqHg">https://goo.gl/73PqHg</a>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/gpbaculio/growtiger-landing-css-challenge">
+                  https://github.com/gpbaculio/growtiger-landing-css-challenge
+                </a>
               </div>
               <div>
                 <strong>Deployment:</strong>
-                <a href="https://goo.gl/mUYJzG">https://goo.gl/mUYJzG</a>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://wizardly-volhard-6a976c.netlify.com/">
+                  https://wizardly-volhard-6a976c.netlify.com/
+                </a>
               </div>
             </CardBody>
           </Card>
@@ -154,11 +180,18 @@ const Body = () => {
             <CardBody>
               <div>
                 <strong>Github:</strong>
-                <a href="https://goo.gl/ru9RPW">https://goo.gl/ru9RPW</a>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/gpbaculio/grove-landing-challenge">
+                  https://github.com/gpbaculio/grove-landing-challenge
+                </a>
               </div>
               <div>
                 <strong>Deployment:</strong>
-                <a href="https://goo.gl/uUi68R">https://goo.gl/uUi68R</a>
+                <a href="https://elegant-booth-6a2e25.netlify.com/">
+                  https://elegant-booth-6a2e25.netlify.com/
+                </a>
               </div>
             </CardBody>
           </Card>
