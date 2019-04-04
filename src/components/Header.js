@@ -14,7 +14,7 @@ const Header = () => (
           <div style={{ fontSize: '28px', borderBottom: 'solid #5ED3F3 1px' }}>
             Glendon Philipp Baculio
           </div>
-          <div style={{ fontSize: '21px' }}>Email: gpbaculio@gmail.com</div>
+          <div style={{ fontSize: '21px', width: '100%' }}>Email: gpbaculio@gmail.com</div>
         </div>
       </div>
     </Col>
