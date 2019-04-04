@@ -54,9 +54,9 @@ const Body = () => {
             plain html, css, bootstrap, php at the time at school. After I
             graduate I self taught myself javascript in freecodecamp and
             eventually got a frontend certificate. Diving into js deeper, I
-            discovered react, redux, apollo and relay in frontend and mongoose,
-            graphql, express in backend, I used this stacks in my portfolio
-            projects.
+            discovered typescript, react, redux, apollo and relay in frontend
+            and mongoose, graphql, express in backend, I used this stacks in my
+            portfolio projects.
           </div>
         </Col>
       </Row>
