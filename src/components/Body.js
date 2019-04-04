@@ -115,12 +115,7 @@ const Body = () => {
       <Row>
         <Col sm="12" md="4">
           <Card>
-            <CardImg
-              top
-              width="100%"
-              src="https://i.imgur.com/CIniMPL.png"
-              alt="Card image cap"
-            />
+            <CardImg top width="100%" src="https://i.imgur.com/CIniMPL.png" />
             <CardBody>
               <div>
                 <strong>Github:</strong>
@@ -135,12 +130,7 @@ const Body = () => {
         </Col>
         <Col sm="12" md="4">
           <Card>
-            <CardImg
-              top
-              width="100%"
-              src="https://i.imgur.com/Lje5mtP.png"
-              alt="Card image cap"
-            />
+            <CardImg top width="100%" src="https://i.imgur.com/Lje5mtP.png" />
             <CardBody>
               <div>
                 <strong>Github:</strong>
@@ -183,48 +173,6 @@ const Body = () => {
       </Row>
       <Row>
         <Col sm="12" md="4">
-          <Card style={{ textAlign: 'justify' }}>
-            <CardImg
-              top
-              width="100%"
-              src="https://i.imgur.com/d29jmm1.png"
-              alt="Card image cap"
-            />
-            <CardBody>
-              <CardText>
-                <strong>Frontend: </strong> Redux, Redux Saga, Redux Optimistic
-              </CardText>
-              <CardText>
-                <strong>Backend: </strong>Express, Mongoose
-              </CardText>
-              <CardText>
-                <strong>Features</strong>
-              </CardText>
-              <div className="d-flex flex-column mb-2">
-                <div>1. Signup + confirmation</div>
-                <div>2. Login + authentication</div>
-                <div>3. Add, Edit, Delete todos + Optimistic Update</div>
-                <div>4. Filter All, Active and Completed todos </div>
-                <div>5. Search Todos</div>
-              </div>
-              <div className="d-flex flex-column">
-                <div>
-                  <strong>Deployment:</strong>
-                  <a href="https://fullstack-redux.herokuapp.com/">
-                    https://fullstack-redux.herokuapp.com/
-                  </a>
-                </div>
-                <div>
-                  <strong>Github:</strong>
-                  <a href="https://github.com/gpbaculio/fullstack-redux-saga">
-                    https://github.com/gpbaculio/fullstack-redux-saga
-                  </a>
-                </div>
-              </div>
-            </CardBody>
-          </Card>
-        </Col>
-        <Col sm="12" md="4">
           <Card>
             <CardImg
               top
@@ -248,11 +196,15 @@ const Body = () => {
                 <div>3. Add, Edit, Delete todos</div>
                 <div>4. Filter All, Active and Completed todos </div>
                 <div>5. Search Todos</div>
+                <div>6. Pagination</div>
               </div>
               <div>
-                <strong>Github:</strong>
-                <a href="https://github.com/gpbaculio/fullstack-react-tsx">
-                  https://github.com/gpbaculio/fullstack-react-tsx
+                <strong>Demo:</strong>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://www.youtube.com/watch?v=ovZ4g0SaNkk">
+                  https://www.youtube.com/watch?v=ovZ4g0SaNkk
                 </a>
               </div>
               <div>
@@ -260,6 +212,64 @@ const Body = () => {
                 <a href="https://fullstack-react-tsx.herokuapp.com/">
                   https://fullstack-react-tsx.herokuapp.com/
                 </a>
+              </div>
+              <div>
+                <strong>Github:</strong>
+                <a href="https://github.com/gpbaculio/fullstack-react-tsx">
+                  https://github.com/gpbaculio/fullstack-react-tsx
+                </a>
+              </div>
+            </CardBody>
+          </Card>
+        </Col>
+        <Col sm="12" md="4">
+          <Card style={{ textAlign: 'justify' }}>
+            <CardImg
+              top
+              width="100%"
+              src="https://i.imgur.com/d29jmm1.png"
+              alt="Card image cap"
+            />
+            <CardBody>
+              <CardText>
+                <strong>Frontend: </strong> Redux, Redux Saga, Redux Optimistic
+              </CardText>
+              <CardText>
+                <strong>Backend: </strong>Express, Mongoose
+              </CardText>
+              <CardText>
+                <strong>Features</strong>
+              </CardText>
+              <div className="d-flex flex-column mb-2">
+                <div>1. Signup + confirmation</div>
+                <div>2. Login + authentication</div>
+                <div>3. Add, Edit, Delete todos + Optimistic Update</div>
+                <div>4. Filter All, Active and Completed todos </div>
+                <div>5. Search Todos</div>
+                <div>6. Pagination</div>
+              </div>
+              <div className="d-flex flex-column">
+                <div>
+                  <strong>Demo:</strong>
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://www.youtube.com/watch?v=ovZ4g0SaNkk">
+                    https://www.youtube.com/watch?v=ovZ4g0SaNkk
+                  </a>
+                </div>
+                <div>
+                  <strong>Deployment:</strong>
+                  <a href="https://fullstack-redux.herokuapp.com/">
+                    https://fullstack-redux.herokuapp.com/
+                  </a>
+                </div>
+                <div>
+                  <strong>Github:</strong>
+                  <a href="https://github.com/gpbaculio/fullstack-redux-saga">
+                    https://github.com/gpbaculio/fullstack-redux-saga
+                  </a>
+                </div>
               </div>
             </CardBody>
           </Card>
@@ -289,8 +299,18 @@ const Body = () => {
                 <div>4. Add, Edit, Delete todos with Optimistic Update</div>
                 <div>5. Filter All, Active and Completed todos </div>
                 <div>6. Search Todos</div>
+                <div>7. Pagination</div>
               </div>
               <div className="d-flex flex-column">
+                <div>
+                  <strong>Demo:</strong>
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://www.youtube.com/watch?v=ovZ4g0SaNkk">
+                    https://www.youtube.com/watch?v=ovZ4g0SaNkk
+                  </a>
+                </div>
                 <div>
                   <strong>Deployment(YOU MUST LOAD UNSAFE SCRIPTS):</strong>
                   <a href="https://fullstack-apollo-graphql.herokuapp.com/">
