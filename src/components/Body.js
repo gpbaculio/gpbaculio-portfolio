@@ -11,14 +11,14 @@ const Body = () => {
             className="d-block mt-5 text-center">
             About Me
           </strong>
-          <strong
+          {/*<strong
             style={{ fontSize: '20px' }}
             className="d-block mt-1 text-center">
             This is also a live site deployed at:{' '}
             <a href="https://priceless-montalcini-501471.netlify.com/">
               https://priceless-montalcini-501471.netlify.com/
             </a>
-          </strong>
+         </strong>*/}
         </Col>
       </Row>
       <Row>
@@ -78,6 +78,14 @@ const Body = () => {
               src="https://i.imgur.com/YnTrI3k.png"
               alt="Card image cap"
             />
+
+            <CardText>
+              <strong>Features(DOM Manipulation)</strong>
+            </CardText>
+            <div className="d-flex flex-column mb-2">
+              <div>1. ADD/EDIT/DELETE Todo</div>
+              <div>2. Filter Todos(All, Active, Completed)</div>
+            </div>
             <CardBody>
               <div>
                 <strong>Github:</strong>
