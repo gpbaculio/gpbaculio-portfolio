@@ -46,22 +46,7 @@ const Body = () => {
       <Row>
         <Col>
           <div className="w-75 mx-auto text-justify">
-            I am a fullstack reactjs developer mainly in frontend, I am a
-            graduate of Bachelor of Science in Information Technology at Liceo
-            de Cagayan University, I got into web development since 2015, you
-            can see my first Stackoverflow question{' '}
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://stackoverflow.com/questions/32332406/how-to-insert-mysql-value-inside-javascript">
-              here
-            </a>
-            . We used plain html, css, bootstrap, php at the time at school.
-            After I graduate I self taught myself javascript in freecodecamp and
-            eventually got a frontend certificate. Diving into js deeper, I
-            discovered typescript, react, redux, apollo and relay in frontend
-            and mongoose, graphql, express in backend, I used this stacks in my
-            portfolio projects.
+            I have a degree in Bachelor of Science Major in Information Technology. Became fascinated with web development, discovered FreeCodeCamp.org and decided to go further on the frontend, learned ES6, TypeScript,React, Redux, React Apollo, Relay Modern and Express, GraphQL, Mongoose for the backend.
           </div>
         </Col>
       </Row>
@@ -224,12 +209,13 @@ const Body = () => {
                 <strong>Features</strong>
               </CardText>
               <div className="d-flex flex-column mb-2">
-                <div>1. Signup + confirmation</div>
-                <div>2. Login + authentication</div>
-                <div>3. Add, Edit, Delete todos</div>
-                <div>4. Filter All, Active and Completed todos </div>
-                <div>5. Search Todos</div>
-                <div>6. Pagination</div>
+                <div>1. Unit Test with Jest</div>
+                <div>2. Signup + confirmation</div>
+                <div>3. Login + authentication</div>
+                <div>4. Add, Edit, Delete todos</div>
+                <div>5. Filter All, Active and Completed todos </div>
+                <div>6. Search Todos</div>
+                <div>7. Pagination</div>
               </div>
               <div>
                 <strong>Demo:</strong>
